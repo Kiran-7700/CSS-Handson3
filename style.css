@@ -1,0 +1,128 @@
+body{
+    background-color: gray;   
+}
+.s1{
+    
+    position: relative;
+    height: 170px; 
+}
+.a1{
+    height: 90px;
+    width: 400px;
+    border: 7px solid red;
+    border-radius: 20px;
+    color: blueviolet;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+      margin-left: 350px;  
+    position: absolute;
+    font-style: italic;
+    box-shadow: 5px 5px 1px rgb(77, 5, 77);   
+    text-shadow: 2px 2px 2px grey;
+    
+    
+    
+}
+.parent{
+       border: 5px solid green;
+       height: 580px;
+       flex-wrap: wrap;
+       position: relative;
+}
+.child{
+    height: 180px;
+    width: 150px;
+    border: 5px solid red;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: aliceblue;
+    color: black;
+  font-size: 20px;
+  box-shadow: 5px 5px 1px rgb(77, 5, 77);   
+  text-shadow: 3px 3px 3px grey;
+}
+.r1{
+    display: flex;
+    position: absolute;
+}
+.r2{
+    display: flex; 
+}
+.child2{
+   margin-left: 790px; 
+   padding-top: 10px;
+}
+.one{
+    margin-top: 340px;   
+}
+.two{
+    margin-top: 340px;
+    margin-left: 790px;
+    height: 190px;
+    padding: 10px;
+}
+.welcome{
+    width: 600px;
+    margin: 15px auto;
+    background-color: tomato;
+    border: 5px solid rgba(22, 119, 231, 0.911);
+    text-align: center;
+}
+.container{
+    display: flex;
+    height: 300px;
+    margin: 15px;
+   
+}
+.d1{
+    width: 260px;
+    border: 1px solid rgb(12, 8, 230);
+    display: inline-block;
+    background-color: seashell;
+    line-height: 30px;
+    font-style: italic;
+    padding-top: 10px;
+    margin-top: 15px;
+    flex: 1;
+}
+p{
+    text-align: center;
+}
+.other{
+    
+    width: 595px;
+    margin-top: 8px;
+    margin-bottom: 1px;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.veg{
+    float: right;
+   margin-left: 5px;
+}
+.frt{
+    float: left;
+    margin-right: 5px;
+}
+.fix{
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    left: 475px;
+    border: 7px solid rgb(55, 0, 128);
+    background-color: rgb(220, 243, 17);
+    text-align: center;
+    color: rgb(206, 32, 9);
+    font-size: 21px;
+    box-shadow: 5px 5px 5px purple;
+}
+hr{
+    color: aliceblue;
+}
